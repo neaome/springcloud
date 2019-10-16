@@ -29,11 +29,11 @@ public class OrderService implements Runnable {
 //        for (int i=0;i<100;i++){
 //            new Thread(orderService).start();
 //        }
-//        test();
+        test();
 //        System.out.println(System.currentTimeMillis());
 //        System.out.println(-1^(-1<<5));
 //        System.out.println(1^32);
-        System.out.println(6<<3);
+//        System.out.println(6<<3  );
 
     }
 
