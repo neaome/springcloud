@@ -1,0 +1,10 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8888/eureka/
+server:
+  port: 8882
+spring:
+  application:
+    name: provider  # 负载均衡，默认轮询
+#    name: provider1  # zuul网关

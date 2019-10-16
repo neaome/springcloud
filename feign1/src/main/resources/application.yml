@@ -1,0 +1,23 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8888/eureka/
+server:
+  port: 8885
+  tomcat:
+    max-threads: 10
+    uri-encoding: UTF-8
+    max-connections: 50
+    accept-count: 20
+spring:
+  application:
+    name: feign
+feign:
+  hystrix:
+    enabled: true
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          timeoutInMilliseconds: 1
